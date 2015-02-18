@@ -3,6 +3,6 @@
 set -e
 set -x
 
-godep go build -a github.com/google/cadvisor
+godep go build -a github.com/bcbroussard/cadvisor
 
-docker build -t google/cadvisor:canary .
+docker build -t bcbroussard/cadvisor:latest .
